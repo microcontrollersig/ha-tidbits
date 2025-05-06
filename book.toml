@@ -6,4 +6,8 @@ src = "src"
 title = "Home Assistant Tidbits"
 
 [output.html]
+additional-css = ["custom.css"]
+additional-js = ["custom.js"]
+default-theme = "dark"
+preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/microcontrollersig/ha-tidbits"
