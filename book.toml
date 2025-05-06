@@ -1,0 +1,9 @@
+[book]
+authors = ["Mohan Gupta"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Home Assistant Tidbits"
+
+[output.html]
+git-repository-url = "https://github.com/microcontrollersig/ha-tidbits"
