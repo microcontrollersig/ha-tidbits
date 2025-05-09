@@ -18,13 +18,14 @@ To get full access.
 Then run
 
 ```sh
-du -h -d 1 | sort -h
+du -h -d 1 / | sort -h
 ```
 
 You can play with variations of this, for example
 
 ```sh
-du -ah -d4 /media|sort -hr|head -n 20
+du -h -d 1 /
+du -ah -d4 / |sort -hr|head -n 20
 ```
 
 
