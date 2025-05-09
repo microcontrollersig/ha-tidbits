@@ -15,17 +15,17 @@ login
 ```
 To get full access.
 
-Then run
+You can first try
 
-```bash
-du -h -d 1 / | sort -h
+
+```shell
+du -h -d 1 / 
 ```
 
 You can play with variations of this, for example
 
-```bash
-du -h -d 1 /
-du -ah -d4 / |sort -hr|head -n 20
+```shell
+du -ah -d4 / | sort -hr | head -n 20
 ```
 
 
