@@ -5,7 +5,7 @@ The possible sources of large disk space usage:
 
 * Backups
 * Home Assistant Database
-* Addons data cache
+* Addons data cache (eg. ESPHome Addon)
 * Media or share (if not network attached storage)
 
 If you are on Home Assistant OS and have access to a shell(eg. using the Terminal&SSH Addon), make sure to run 
